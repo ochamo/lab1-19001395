@@ -9,7 +9,7 @@ class Main inherits IO {
             out_string("\nIngrese su edad: ");
             age <- in_string();
 
-            out_string("\n\nPepe tendra ".concat(age).concat(" al graduarse"));
+            out_string(name.concat(" tendra ").concat(age).concat(" al graduarse\n"));
 
         }
     };
